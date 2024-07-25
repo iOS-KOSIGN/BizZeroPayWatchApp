@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4DD14542C51EDE900999E33 /* BrandDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD14532C51EDE900999E33 /* BrandDetailModel.swift */; };
+		F4DD14562C51EE0600999E33 /* BrandDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD14552C51EE0600999E33 /* BrandDetailVM.swift */; };
+		F4DD14582C51EEB500999E33 /* BarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD14572C51EEB500999E33 /* BarCodeView.swift */; };
+		F4E5A4022C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F4E5A4012C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F4E5A4072C4F91A800DA29F6 /* BizZeroPayWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A4062C4F91A800DA29F6 /* BizZeroPayWatchAppApp.swift */; };
+		F4E5A40B2C4F91A800DA29F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A40A2C4F91A800DA29F6 /* Assets.xcassets */; };
+		F4E5A40E2C4F91A800DA29F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A40D2C4F91A800DA29F6 /* Preview Assets.xcassets */; };
+		F4E5A41C2C4F931300DA29F6 /* BrandListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A41B2C4F931300DA29F6 /* BrandListModel.swift */; };
+		F4E5A41E2C4F932400DA29F6 /* BrandListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A41D2C4F932400DA29F6 /* BrandListVM.swift */; };
+		F4E5A4202C4F935700DA29F6 /* BrandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A41F2C4F935700DA29F6 /* BrandListView.swift */; };
+		F4E5A4222C4FA77C00DA29F6 /* BrandDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A4212C4FA77C00DA29F6 /* BrandDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E5A4032C4F91A800DA29F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E5A3F52C4F91A700DA29F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E5A4002C4F91A800DA29F6;
+			remoteInfo = "BizZeroPayWatchApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4E5A4142C4F91A800DA29F6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F4E5A4022C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4DD14532C51EDE900999E33 /* BrandDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDetailModel.swift; sourceTree = "<group>"; };
+		F4DD14552C51EE0600999E33 /* BrandDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDetailVM.swift; sourceTree = "<group>"; };
+		F4DD14572C51EEB500999E33 /* BarCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeView.swift; sourceTree = "<group>"; };
+		F4E5A3FB2C4F91A800DA29F6 /* BizZeroPayWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BizZeroPayWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E5A4012C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BizZeroPayWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E5A4062C4F91A800DA29F6 /* BizZeroPayWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizZeroPayWatchAppApp.swift; sourceTree = "<group>"; };
+		F4E5A40A2C4F91A800DA29F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E5A40D2C4F91A800DA29F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4E5A41B2C4F931300DA29F6 /* BrandListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandListModel.swift; sourceTree = "<group>"; };
+		F4E5A41D2C4F932400DA29F6 /* BrandListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandListVM.swift; sourceTree = "<group>"; };
+		F4E5A41F2C4F935700DA29F6 /* BrandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandListView.swift; sourceTree = "<group>"; };
+		F4E5A4212C4FA77C00DA29F6 /* BrandDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E5A3FE2C4F91A800DA29F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4E5A3F42C4F91A700DA29F6 = {
+			isa = PBXGroup;
+			children = (
+				F4E5A4052C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App */,
+				F4E5A3FC2C4F91A800DA29F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E5A3FC2C4F91A800DA29F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A3FB2C4F91A800DA29F6 /* BizZeroPayWatchApp.app */,
+				F4E5A4012C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E5A4052C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A4182C4F926400DA29F6 /* Model */,
+				F4E5A4192C4F92DB00DA29F6 /* ViewModel */,
+				F4E5A41A2C4F92E200DA29F6 /* View */,
+				F4E5A4062C4F91A800DA29F6 /* BizZeroPayWatchAppApp.swift */,
+				F4E5A40A2C4F91A800DA29F6 /* Assets.xcassets */,
+				F4E5A40C2C4F91A800DA29F6 /* Preview Content */,
+			);
+			path = "BizZeroPayWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		F4E5A40C2C4F91A800DA29F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A40D2C4F91A800DA29F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4E5A4182C4F926400DA29F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A41B2C4F931300DA29F6 /* BrandListModel.swift */,
+				F4DD14532C51EDE900999E33 /* BrandDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4E5A4192C4F92DB00DA29F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A41D2C4F932400DA29F6 /* BrandListVM.swift */,
+				F4DD14552C51EE0600999E33 /* BrandDetailVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F4E5A41A2C4F92E200DA29F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A41F2C4F935700DA29F6 /* BrandListView.swift */,
+				F4E5A4212C4FA77C00DA29F6 /* BrandDetailView.swift */,
+				F4DD14572C51EEB500999E33 /* BarCodeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E5A3FA2C4F91A800DA29F6 /* BizZeroPayWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E5A4152C4F91A800DA29F6 /* Build configuration list for PBXNativeTarget "BizZeroPayWatchApp" */;
+			buildPhases = (
+				F4E5A3F92C4F91A800DA29F6 /* Resources */,
+				F4E5A4142C4F91A800DA29F6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E5A4042C4F91A800DA29F6 /* PBXTargetDependency */,
+			);
+			name = BizZeroPayWatchApp;
+			productName = BizZeroPayWatchApp;
+			productReference = F4E5A3FB2C4F91A800DA29F6 /* BizZeroPayWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F4E5A4002C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E5A4112C4F91A800DA29F6 /* Build configuration list for PBXNativeTarget "BizZeroPayWatchApp Watch App" */;
+			buildPhases = (
+				F4E5A3FD2C4F91A800DA29F6 /* Sources */,
+				F4E5A3FE2C4F91A800DA29F6 /* Frameworks */,
+				F4E5A3FF2C4F91A800DA29F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BizZeroPayWatchApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "BizZeroPayWatchApp Watch App";
+			productReference = F4E5A4012C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E5A3F52C4F91A700DA29F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F4E5A3FA2C4F91A800DA29F6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F4E5A4002C4F91A800DA29F6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F4E5A3F82C4F91A700DA29F6 /* Build configuration list for PBXProject "BizZeroPayWatchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E5A3F42C4F91A700DA29F6;
+			packageReferences = (
+			);
+			productRefGroup = F4E5A3FC2C4F91A800DA29F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E5A3FA2C4F91A800DA29F6 /* BizZeroPayWatchApp */,
+				F4E5A4002C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E5A3F92C4F91A800DA29F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E5A3FF2C4F91A800DA29F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E5A40E2C4F91A800DA29F6 /* Preview Assets.xcassets in Resources */,
+				F4E5A40B2C4F91A800DA29F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E5A3FD2C4F91A800DA29F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DD14542C51EDE900999E33 /* BrandDetailModel.swift in Sources */,
+				F4E5A4202C4F935700DA29F6 /* BrandListView.swift in Sources */,
+				F4DD14562C51EE0600999E33 /* BrandDetailVM.swift in Sources */,
+				F4E5A4222C4FA77C00DA29F6 /* BrandDetailView.swift in Sources */,
+				F4E5A4072C4F91A800DA29F6 /* BizZeroPayWatchAppApp.swift in Sources */,
+				F4E5A41E2C4F932400DA29F6 /* BrandListVM.swift in Sources */,
+				F4E5A41C2C4F931300DA29F6 /* BrandListModel.swift in Sources */,
+				F4DD14582C51EEB500999E33 /* BarCodeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E5A4042C4F91A800DA29F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E5A4002C4F91A800DA29F6 /* BizZeroPayWatchApp Watch App */;
+			targetProxy = F4E5A4032C4F91A800DA29F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4E5A40F2C4F91A800DA29F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4E5A4102C4F91A800DA29F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F4E5A4122C4F91A800DA29F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BizZeroPayWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = HUWGZQ563K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BizZeroPayWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.BizZeroPayWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		F4E5A4132C4F91A800DA29F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BizZeroPayWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = HUWGZQ563K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BizZeroPayWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.BizZeroPayWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		F4E5A4162C4F91A800DA29F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUWGZQ563K;
+				INFOPLIST_KEY_CFBundleDisplayName = BizZeroPayWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.BizZeroPayWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4E5A4172C4F91A800DA29F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUWGZQ563K;
+				INFOPLIST_KEY_CFBundleDisplayName = BizZeroPayWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test1.BizZeroPayWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E5A3F82C4F91A700DA29F6 /* Build configuration list for PBXProject "BizZeroPayWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E5A40F2C4F91A800DA29F6 /* Debug */,
+				F4E5A4102C4F91A800DA29F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E5A4112C4F91A800DA29F6 /* Build configuration list for PBXNativeTarget "BizZeroPayWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E5A4122C4F91A800DA29F6 /* Debug */,
+				F4E5A4132C4F91A800DA29F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E5A4152C4F91A800DA29F6 /* Build configuration list for PBXNativeTarget "BizZeroPayWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E5A4162C4F91A800DA29F6 /* Debug */,
+				F4E5A4172C4F91A800DA29F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E5A3F52C4F91A700DA29F6 /* Project object */;
+}
